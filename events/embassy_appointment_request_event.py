@@ -1,4 +1,4 @@
-from event import Event
+from events.event import Event
 
 class EmbassyAppointmentRequestEvent(Event):
     def __init__(self, passport_number, date):

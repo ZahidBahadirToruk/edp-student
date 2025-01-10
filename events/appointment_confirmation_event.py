@@ -1,4 +1,4 @@
-from event import Event
+from events.event import Event
 
 class AppointmentConfirmationEvent(Event):
     def __init__(self, passport_number, is_confirmed):

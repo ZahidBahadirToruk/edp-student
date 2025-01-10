@@ -1,4 +1,4 @@
-from appointment_confirmation_event import AppointmentConfirmationEvent
+from events.appointment_confirmation_event import AppointmentConfirmationEvent
 
 class Embassy:
     def __init__(self, name, address, phone_number, email, event_queue):

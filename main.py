@@ -1,7 +1,7 @@
 from student import Student
 from embassy import Embassy
-from embassy_appointment_request_event import EmbassyAppointmentRequestEvent
-from appointment_confirmation_event import AppointmentConfirmationEvent
+from events.embassy_appointment_request_event import EmbassyAppointmentRequestEvent
+from events.appointment_confirmation_event import AppointmentConfirmationEvent
 
 event_queue = []
 
