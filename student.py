@@ -1,4 +1,4 @@
-from embassy_appointment_request_event import EmbassyAppointmentRequestEvent
+from events.embassy_appointment_request_event import EmbassyAppointmentRequestEvent
 
 class Student:
     def __init__(self, first_name, last_name, day_of_birth, address, phone_number, passport_number, event_queue):
