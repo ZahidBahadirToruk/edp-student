@@ -13,7 +13,7 @@ polish_embassy = Embassy('Polish Embassy', 'Ankara, Harika 10', '343242344', 'po
 student1.ask_for_embassy_appointment('10.12.2024')
 
 
-while event_queue: # it runs as long as there is an event in the list
+while event_queue: 
     event = event_queue.pop(0) # takes the event from the top
 
     # matches events with the handler
